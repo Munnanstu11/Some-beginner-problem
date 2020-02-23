@@ -1,0 +1,14 @@
+//write a program that show power of any numbers like pow(2,3)=8.
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double a,b,ans;
+    scanf("%lf %lf",&a,&b);
+
+    ans=pow(a,b);
+
+    printf("ans = %.2lf",ans);
+
+    return 0;
+}
